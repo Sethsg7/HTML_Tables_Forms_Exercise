@@ -7,7 +7,85 @@
   </head>
   <body>
     <main>
-      <!-- Complete the Exercises HERE -->
+      <h1>Soda Vendor</h1>
+      <section>
+        <h2>Soda Information</h2>
+        <table>
+          <thead>
+            <tr>
+              <!---tr>th*7 Shortcut to create 7 rows. Emmet abr.--->
+              <th>Drink</th>
+              <th>Total servings</th>
+              <th>Serving size</th>
+              <th>Calories per serving</th>
+              <th>Carbs per serving</th>
+              <th>Sugars per serving</th>
+              <th>Sodium per serving</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Coca Cola</td>
+              <td>1</td>
+              <td>12 fl oz</td>
+              <td>140</td>
+              <td>39 g</td>
+              <td>39 g</td>
+              <td>45 mg</td>
+            </tr>
+            <tr>
+              <td>Pepsi</td>
+              <td>1</td>
+              <td>12 fl oz</td>
+              <td>150</td>
+              <td>41 g</td>
+              <td>41 g</td>
+              <td>30 mg</td>
+            </tr>
+            <tr>
+              <td>Coca Cola Zero</td>
+              <td>1</td>
+              <td>12 fl oz</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>21.3 g</td>
+            </tr>
+            <tr>
+              <td>Dr. Pepper</td>
+              <td>1</td>
+              <td>7.5 fl oz</td>
+              <td>93</td>
+              <td>24.6 g</td>
+              <td>23.9 g</td>
+              <td>37 mg</td>
+            </tr>
+            <tr>
+              <td>Mountain Dew</td>
+              <td>1</td>
+              <td>12 fl oz</td>
+              <td>170</td>
+              <td>46 g</td>
+              <td>46 g</td>
+              <td>65 mg</td>
+            </tr>
+            <!---repeat per drink/record-->
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Add Soda Info</h2>
+        <form>
+          <fieldset><label for="drinkName">Name</label><input type="text" name="drinkName" id="drinkName"></fieldset>
+          <fieldset><label for="totalServings">Total Servings</label><input type="number" name="totalServings" id="totalServings"></fieldset>
+          <fieldset><label for="servingSize">Serving Size</label><input type="number" name="Serving Size" id="servingSize"></fieldset>
+          <fieldset><label for="Calories per Serving">Calories per Serving</label><input type="text" name="Calories per Serving" id="Calories per Serving"></fieldset>
+          <fieldset><label for="Carbs per Serving">Carbs per Serving</label><input type="text" name="Carbs per Serving" id="Carbs per Serving"></fieldset>
+          <fieldset><label for="Sugars per Serving"></label>Sugars per Serving<input type="text" name="Sugars per Serving" id="Sugars per Serving"></fieldset>
+          <fieldset><label for="Sodium per Serving"></label>Sodium per Serving<input type="text" name="Sodium per Serving" id="Sodium per Serving"></fieldset>
+        </form>
+        <button type="submit">Add Soda</button>
+      </section>
     </main>
   </body>
 </html>
